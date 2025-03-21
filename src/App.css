@@ -1,0 +1,68 @@
+/* Light Theme (Default) */
+body {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Fix Header Visibility */
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p {
+  color: #ffffff !important;
+}
+
+.dark-theme .navbar {
+  background-color: #222 !important;
+  border-bottom: 2px solid #444;
+}
+
+.dark-theme .navbar a {
+  color: #ffffff !important;
+}
+
+.dark-theme .card {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.dark-theme .btn-primary {
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+}
+
+.dark-theme .btn-outline-secondary {
+  color: #bb86fc;
+  border-color: #bb86fc;
+}
+
+/* Dark Theme for Buttons */
+.dark-theme .btn {
+  color: #ffffff !important;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background-color: #555;
+}
