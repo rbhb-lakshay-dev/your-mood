@@ -95,7 +95,7 @@ function Home() {
       <Row className="mt-5">
         <Col md={6}>
           <Image
-            src="/images/home-interior.webp"
+            src="../../public/images/home-interior.webp"
             alt="Cafe Interior"
             fluid
             rounded
